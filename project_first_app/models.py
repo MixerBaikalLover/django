@@ -18,7 +18,7 @@ class License(models.Model):
     owner_license = models.ForeignKey(Owner, on_delete=models.CASCADE)
     number = models.CharField(max_length=10)
     type = models.CharField(max_length=10)
-    date = models.DateTimeField()
+    date = models.DateField()
 
 
 class Ownership(models.Model):
