@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.http import Http404
 from django.shortcuts import render
 from project_first_app.models import Owner
+import datetime
 def index(request):
     return HttpResponse('.i.')
 
@@ -14,3 +15,11 @@ def detail(request, owner_id):
     except Owner.DoesNotExist:
         raise Http404("Owner does not exist") #исключение которое будет вызвано, если блок try вернет значение False (не будут найдены записи в таблице Poll)
     return render(request, 'detail.html', {'owner': p}) #данная строка рендерит хтмл страницу detail.html и передает в него объект "p", который в хтмл шаблоне будет называться "poll"
+# create a function
+def example_view(request):
+    # fetch date and time
+    now = datetime.datetime.now()
+    # convert to string
+    html = "Time is {}".format(now)
+    # return response
+    return HttpResponse(html)
