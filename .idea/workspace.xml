@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9b2c9ff-8887-4662-b00a-e947a8372bb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/list_view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/bidlo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bidlo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Student.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db1.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db1.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_first_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_first_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_first_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/project_first_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +43,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -93,6 +96,8 @@
       <workItem from="1617715148014" duration="1182000" />
       <workItem from="1618318294643" duration="140000" />
       <workItem from="1618318454060" duration="2241000" />
+      <workItem from="1618922821662" duration="671000" />
+      <workItem from="1618923533989" duration="2532000" />
     </task>
     <servers />
   </component>

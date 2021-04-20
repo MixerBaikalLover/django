@@ -4,6 +4,7 @@ from django.http import HttpResponse
 from django.http import Http404
 from django.shortcuts import render
 from project_first_app.models import Owner
+from .models import *
 import datetime
 def index(request):
     return HttpResponse('.i.')
@@ -23,3 +24,15 @@ def example_view(request):
     html = "Time is {}".format(now)
     # return response
     return HttpResponse(html)
+
+
+def list_view(request):
+    # dictionary for initial data with
+    # field names as keys
+    context = {}
+
+    # add the dictionary during initialization [en]
+    # добавление данных об объектах, полученных в результате выполнения запроса exampleModel.objects.all() в словарь
+    context["dataset"] = Car.objects.all()
+
+    return render(request, "list_view.html", context)
